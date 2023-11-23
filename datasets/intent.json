@@ -167,105 +167,55 @@
             "responses": ["Symptoms of insomnia include difficulty falling asleep, staying asleep, or waking up too early. To improve sleep quality, it's important to establish a regular sleep schedule, create a relaxing bedtime routine, maintain a comfortable sleep environment, and practice good sleep hygiene. There are various effective treatments for insomnia, including cognitive-behavioral therapy for insomnia (CBT-I) and medications prescribed by a healthcare provider."]
         },
         {
-            "tag": "tag1",
-            "patterns": ["What are the symptoms of tag1?", "How can I manage tag1?", "Are there any effective tag1 medications?"],
-            "responses": ["Symptoms of tag1 include X, Y, and Z. To manage tag1, it's important to A, B, and C. There are various effective tag1 medications available, including D and E."]
+            "tag": "diarrhea",
+            "patterns": ["What are the common causes of diarrhea?", "How can I manage diarrhea?", "Are there any effective medications for diarrhea?"],
+            "responses": ["Common causes of diarrhea include viral or bacterial infections, food poisoning, and certain medications. To manage diarrhea, it's important to stay hydrated, eat bland foods, and avoid caffeine and alcohol. There are various effective medications available for diarrhea, including over-the-counter antidiarrheal medications."]
         },
         {
-            "tag": "tag2",
-            "patterns": ["What are the symptoms of tag2?", "How can I manage tag2?", "Are there any effective tag2 medications?"],
-            "responses": ["Symptoms of tag2 include X, Y, and Z. To manage tag2, it's important to A, B, and C. There are various effective tag2 medications available, including D and E."]
+            "tag": "constipation",
+            "patterns": ["What are the common causes of constipation?", "How can I relieve constipation?", "Are there any effective medications for constipation?"],
+            "responses": ["Common causes of constipation include a lack of fiber in the diet, dehydration, and certain medications. To relieve constipation, it's important to eat a high-fiber diet, drink plenty of water, and engage in regular physical activity. There are various effective medications available for constipation, including over-the-counter laxatives."]
         },
         {
-            "tag": "tag3",
-            "patterns": ["What are the symptoms of tag3?", "How can I manage tag3?", "Are there any effective tag3 medications?"],
-            "responses": ["Symptoms of tag3 include X, Y, and Z. To manage tag3, it's important to A, B, and C. There are various effective tag3 medications available, including D and E."]
+            "tag": "acid_reflux",
+            "patterns": ["What are the symptoms of acid reflux?", "How can I manage acid reflux?", "Are there any effective medications for acid reflux?"],
+            "responses": ["Symptoms of acid reflux include heartburn, regurgitation, and chest pain. To manage acid reflux, it's important to avoid trigger foods, eat smaller meals, and elevate the head of the bed. There are various effective medications available for acid reflux, including proton pump inhibitors (PPIs) and H2 blockers."]
         },
         {
-            "tag": "tag4",
-            "patterns": ["What are the symptoms of tag4?", "How can I manage tag4?", "Are there any effective tag4 medications?"],
-            "responses": ["Symptoms of tag4 include X, Y, and Z. To manage tag4, it's important to A, B, and C. There are various effective tag4 medications available, including D and E."]
+            "tag": "urinary_tract_infection",
+            "patterns": ["What are the symptoms of a urinary tract infection?", "How can I manage a urinary tract infection?", "Are there any effective medications for urinary tract infections?"],
+            "responses": ["Symptoms of a urinary tract infection include frequent urination, burning sensation during urination, and cloudy or bloody urine. To manage a urinary tract infection, it's important to drink plenty of water, urinate frequently, and take prescribed antibiotics. There are various effective medications available for urinary tract infections, and it's important to consult with a healthcare provider for proper diagnosis and treatment."]
         },
         {
-            "tag": "tag5",
-            "patterns": ["What are the symptoms of tag5?", "How can I manage tag5?", "Are there any effective tag5 medications?"],
-            "responses": ["Symptoms of tag5 include X, Y, and Z. To manage tag5, it's important to A, B, and C. There are various effective tag5 medications available, including D and E."]
+            "tag": "gastroenteritis",
+            "patterns": ["What are the symptoms of gastroenteritis?", "How can I manage gastroenteritis?", "Are there any effective medications for gastroenteritis?"],
+            "responses": ["Symptoms of gastroenteritis include diarrhea, vomiting, stomach cramps, and nausea. To manage gastroenteritis, it's important to stay hydrated, rest, and eat bland foods. There are various effective medications available for gastroenteritis, including over-the-counter antidiarrheal medications and antiemetics."]
         },
         {
-            "tag": "tag6",
-            "patterns": ["What are the symptoms of tag6?", "How can I manage tag6?", "Are there any effective tag6 medications?"],
-            "responses": ["Symptoms of tag6 include X, Y, and Z. To manage tag6, it's important to A, B, and C. There are various effective tag6 medications available, including D and E."]
+            "tag": "bronchitis",
+            "patterns": ["What are the symptoms of bronchitis?", "How can I manage bronchitis?", "Are there any effective medications for bronchitis?"],
+            "responses": ["Symptoms of bronchitis include cough, chest congestion, and shortness of breath. To manage bronchitis, it's important to rest, stay hydrated, and use over-the-counter cough suppressants and expectorants. There are various effective medications available for bronchitis, and it's important to consult with a healthcare provider for proper diagnosis and treatment."]
         },
         {
-            "tag": "tag7",
-            "patterns": ["What are the symptoms of tag7?", "How can I manage tag7?", "Are there any effective tag7 medications?"],
-            "responses": ["Symptoms of tag7 include X, Y, and Z. To manage tag7, it's important to A, B, and C. There are various effective tag7 medications available, including D and E."]
+            "tag": "sinusitis",
+            "patterns": ["What are the symptoms of sinusitis?", "How can I manage sinusitis?", "Are there any effective medications for sinusitis?"],
+            "responses": ["Symptoms of sinusitis include facial pain, nasal congestion, and thick nasal discharge. To manage sinusitis, it's important to use saline nasal rinses, apply warm compresses, and take over-the-counter pain relievers and decongestants. There are various effective medications available for sinusitis, and it's important to consult with a healthcare provider for proper diagnosis and treatment."]
         },
         {
-            "tag": "tag8",
-            "patterns": ["What are the symptoms of tag8?", "How can I manage tag8?", "Are there any effective tag8 medications?"],
-            "responses": ["Symptoms of tag8 include X, Y, and Z. To manage tag8, it's important to A, B, and C. There are various effective tag8 medications available, including D and E."]
+            "tag": "pneumonia",
+            "patterns": ["What are the symptoms of pneumonia?", "How can I manage pneumonia?", "Are there any effective medications for pneumonia?"],
+            "responses": ["Symptoms of pneumonia include cough, fever, chest pain, and difficulty breathing. To manage pneumonia, it's important to rest, stay hydrated, and take prescribed antibiotics. There are various effective medications available for pneumonia, and it's important to consult with a healthcare provider for proper diagnosis and treatment."]
         },
         {
-            "tag": "tag9",
-            "patterns": ["What are the symptoms of tag9?", "How can I manage tag9?", "Are there any effective tag9 medications?"],
-            "responses": ["Symptoms of tag9 include X, Y, and Z. To manage tag9, it's important to A, B, and C. There are various effective tag9 medications available, including D and E."]
+            "tag": "stomach_ulcer",
+            "patterns": ["What are the symptoms of a stomach ulcer?", "How can I manage a stomach ulcer?", "Are there any effective medications for stomach ulcers?"],
+            "responses": ["Symptoms of a stomach ulcer include abdominal pain, bloating, and indigestion. To manage a stomach ulcer, it's important to avoid trigger foods, quit smoking, and take prescribed medications to reduce stomach acid and promote healing. There are various effective medications available for stomach ulcers, and it's important to consult with a healthcare provider for proper diagnosis and treatment."]
         },
         {
-            "tag": "tag10",
-            "patterns": ["What are the symptoms of tag10?", "How can I manage tag10?", "Are there any effective tag10 medications?"],
-            "responses": ["Symptoms of tag10 include X, Y, and Z. To manage tag10, it's important to A, B, and C. There are various effective tag10 medications available, including D and E."]
-        },
-        {
-            "tag": "tag11",
-            "patterns": ["What are the symptoms of tag11?", "How can I manage tag11?", "Are there any effective tag11 medications?"],
-            "responses": ["Symptoms of tag11 include X, Y, and Z. To manage tag11, it's important to A, B, and C. There are various effective tag11 medications available, including D and E."]
-        },
-        {
-            "tag": "tag12",
-            "patterns": ["What are the symptoms of tag12?", "How can I manage tag12?", "Are there any effective tag12 medications?"],
-            "responses": ["Symptoms of tag12 include X, Y, and Z. To manage tag12, it's important to A, B, and C. There are various effective tag12 medications available, including D and E."]
-        },
-        {
-            "tag": "tag13",
-            "patterns": ["What are the symptoms of tag13?", "How can I manage tag13?", "Are there any effective tag13 medications?"],
-            "responses": ["Symptoms of tag13 include X, Y, and Z. To manage tag13, it's important to A, B, and C. There are various effective tag13 medications available, including D and E."]
-        },
-        {
-            "tag": "tag14",
-            "patterns": ["What are the symptoms of tag14?", "How can I manage tag14?", "Are there any effective tag14 medications?"],
-            "responses": ["Symptoms of tag14 include X, Y, and Z. To manage tag14, it's important to A, B, and C. There are various effective tag14 medications available, including D and E."]
-        },
-        {
-            "tag": "tag15",
-            "patterns": ["What are the symptoms of tag15?", "How can I manage tag15?", "Are there any effective tag15 medications?"],
-            "responses": ["Symptoms of tag15 include X, Y, and Z. To manage tag15, it's important to A, B, and C. There are various effective tag15 medications available, including D and E."]
-        },
-        {
-            "tag": "tag16",
-            "patterns": ["What are the symptoms of tag16?", "How can I manage tag16?", "Are there any effective tag16 medications?"],
-            "responses": ["Symptoms of tag16 include X, Y, and Z. To manage tag16, it's important to A, B, and C. There are various effective tag16 medications available, including D and E."]
-        },
-        {
-            "tag": "tag17",
-            "patterns": ["What are the symptoms of tag17?", "How can I manage tag17?", "Are there any effective tag17 medications?"],
-            "responses": ["Symptoms of tag17 include X, Y, and Z. To manage tag17, it's important to A, B, and C. There are various effective tag17 medications available, including D and E."]
-        },
-        {
-            "tag": "tag18",
-            "patterns": ["What are the symptoms of tag18?", "How can I manage tag18?", "Are there any effective tag18 medications?"],
-            "responses": ["Symptoms of tag18 include X, Y, and Z. To manage tag18, it's important to A, B, and C. There are various effective tag18 medications available, including D and E."]
-        },
-        {
-            "tag": "tag19",
-            "patterns": ["What are the symptoms of tag19?", "How can I manage tag19?", "Are there any effective tag19 medications?"],
-            "responses": ["Symptoms of tag19 include X, Y, and Z. To manage tag19, it's important to A, B, and C. There are various effective tag19 medications available, including D and E."]
-        },
-        {
-            "tag": "tag20",
-            "patterns": ["What are the symptoms of tag20?", "How can I manage tag20?", "Are there any effective tag20 medications?"],
-            "responses": ["Symptoms of tag20 include X, Y, and Z. To manage tag20, it's important to A, B, and C. There are various effective tag20 medications available, including D and E."]
+            "tag": "migraine",
+            "patterns": ["What are the symptoms of a migraine?", "How can I manage my migraines?", "Are there any effective migraine medications?"],
+            "responses": ["Symptoms of a migraine include severe headache, sensitivity to light and sound, nausea, and vomiting. To manage migraines, it's important to identify triggers, practice stress management techniques, maintain a regular sleep schedule, and take prescribed medications. There are various effective migraine medications available, including triptans and preventive medications."]
         }
-    ]
+]    
 }
 
