@@ -1,0 +1,271 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey"],
+            "responses": ["Hello! How can I assist you today?"]
+        },
+        {
+            "tag": "symptoms",
+            "patterns": ["What are the symptoms of COVID-19?", "I have a fever and cough", "What are the common flu symptoms?"],
+            "responses": ["Common symptoms of COVID-19 include fever, cough, and difficulty breathing."]
+        },
+        {
+            "tag": "appointment",
+            "patterns": ["How can I schedule an appointment?", "When is the next available appointment?", "Can I book an appointment online?"],
+            "responses": ["To schedule an appointment, please call our clinic at XXX-XXXX or visit our website to book online."]
+        },
+        {
+            "tag": "prescription",
+            "patterns": ["Can I get a prescription refill?", "How long is my prescription valid?", "What should I do if I run out of medication?"],
+            "responses": ["To get a prescription refill, please contact your primary care physician. Prescriptions are typically valid for 30 days."]
+        },
+        {
+            "tag": "insurance",
+            "patterns": ["Does my insurance cover this procedure?", "What is my copay for a specialist visit?", "Can I use my insurance for lab tests?"],
+            "responses": ["Insurance coverage varies. It's best to contact your insurance provider to confirm coverage for specific procedures, copays, and lab tests."]
+        },
+        {
+            "tag": "diet",
+            "patterns": ["What foods should I avoid for a healthy diet?", "Can you recommend a balanced meal plan?", "How can I lose weight effectively?"],
+            "responses": ["For a healthy diet, it's recommended to avoid processed foods and limit sugar intake. A balanced meal plan includes fruits, vegetables, lean proteins, and whole grains."]
+        },
+        {
+            "tag": "exercise",
+            "patterns": ["What are some recommended exercises for beginners?", "How often should I exercise?", "Can you suggest a workout routine?"],
+            "responses": ["For beginners, recommended exercises include walking, jogging, and basic strength training. It's recommended to exercise at least 30 minutes a day, 5 days a week."]
+        },
+        {
+            "tag": "medication",
+            "patterns": ["What are the side effects of this medication?", "How should I take this medication?", "Can I take this medication with food?"],
+            "responses": ["Common side effects of this medication include nausea, dizziness, and headache. Please follow the instructions provided by your healthcare provider and refer to the medication label for specific dosage instructions."]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["I'm feeling anxious and stressed. What should I do?", "Can you recommend any relaxation techniques?", "How can I improve my mental well-being?"],
+            "responses": ["If you're feeling anxious and stressed, it's important to practice self-care, such as deep breathing exercises and mindfulness. Additionally, consider seeking support from a mental health professional for further guidance."]
+        },
+        {
+            "tag": "emergency",
+            "patterns": ["What should I do in case of a medical emergency?", "How can I recognize the signs of a heart attack?", "Is there a nearby hospital I can go to?"],
+            "responses": ["In case of a medical emergency, call your local emergency number immediately. Signs of a heart attack include chest pain, shortness of breath, and pain radiating to the arm or jaw. You can find the nearest hospital by searching online or using a navigation app."]
+        },
+        {
+            "tag": "pharmacy",
+            "patterns": ["What are the common side effects of this medication?", "How should I store my medication?", "Can I take this medication with other drugs?"],
+            "responses": ["Common side effects of this medication include nausea, dizziness, and headache. It's important to store your medication in a cool, dry place. Please consult with your pharmacist or healthcare provider before taking this medication with other drugs."]
+        },
+        {
+            "tag": "dosage",
+            "patterns": ["What is the recommended dosage for this medication?", "How often should I take this medication?", "Can I adjust the dosage on my own?"],
+            "responses": ["The recommended dosage for this medication is X mg per day. Please follow the instructions provided by your healthcare provider and do not adjust the dosage without consulting them."]
+        },
+        {
+            "tag": "drug_interaction",
+            "patterns": ["Are there any known drug interactions with this medication?", "Can I take this medication if I'm already taking other drugs?", "Should I avoid certain foods or beverages while taking this medication?"],
+            "responses": ["There may be potential drug interactions with this medication. It's important to inform your healthcare provider about all the medications you are currently taking. They can provide guidance on potential interactions and whether you should avoid certain foods or beverages."]
+        },
+        {
+            "tag": "generic_equivalent",
+            "patterns": ["Is there a generic equivalent for this medication?", "Can I request a generic version of this medication?", "What is the cost difference between the brand and generic versions?"],
+            "responses": ["There may be a generic equivalent available for this medication. You can discuss with your pharmacist or healthcare provider about the availability and cost difference between the brand and generic versions."]
+        },
+        {
+            "tag": "medication_storage",
+            "patterns": ["How should I store my medication?", "Can I keep my medication in the bathroom?", "What are the storage requirements for this medication?"],
+            "responses": ["It's important to store your medication in a cool, dry place. Avoid storing medication in the bathroom as the humidity can affect its effectiveness. Please refer to the medication label or consult with your pharmacist for specific storage requirements."]
+        },
+        {
+            "tag": "medication_adherence",
+            "patterns": ["How can I improve medication adherence?", "What should I do if I miss a dose?", "Can I take multiple medications at the same time?"],
+            "responses": ["To improve medication adherence, it's recommended to set reminders, use pill organizers, and establish a routine. If you miss a dose, follow the instructions provided by your healthcare provider or pharmacist. Taking multiple medications at the same time may require guidance from your healthcare provider to ensure safety and effectiveness."]
+        },
+        {
+            "tag": "medication_allergies",
+            "patterns": ["What should I do if I have an allergic reaction to a medication?", "How can I identify if I'm allergic to a medication?", "Can I take this medication if I have known allergies?"],
+            "responses": ["If you have an allergic reaction to a medication, seek immediate medical attention. Symptoms of an allergic reaction may include rash, itching, swelling, or difficulty breathing. It's important to inform your healthcare provider about any known allergies before taking a medication."]
+        },
+        {
+            "tag": "medication_pregnancy",
+            "patterns": ["Can I take this medication if I'm pregnant or planning to become pregnant?", "What are the potential risks of taking this medication during pregnancy?", "Are there any alternative medications for pregnant women?"],
+            "responses": ["It's important to consult with your healthcare provider before taking any medication during pregnancy or if you're planning to become pregnant. They can provide guidance on the potential risks and recommend alternative medications that are safe for pregnant women."]
+        },
+        {
+            "tag": "medication_children",
+            "patterns": ["Can children take this medication?", "What is the recommended dosage for children?", "Are there any age restrictions for this medication?"],
+            "responses": ["The use of this medication in children may vary. It's important to consult with your healthcare provider or pediatrician for guidance on whether children can take this medication, the recommended dosage, and any age restrictions."]
+        },
+        {
+            "tag": "medication_side_effects",
+            "patterns": ["What are the potential side effects of this medication?", "How long do the side effects typically last?", "Should I be concerned about specific side effects?"],
+            "responses": ["Potential side effects of this medication may include X, Y, and Z. The duration and severity of side effects can vary. If you experience any concerning side effects, it's important to contact your healthcare provider for further evaluation."]
+ 
+        },
+        {
+            "tag": "pharmacy",
+            "patterns": ["What are the common side effects of this medication?", "How should I store my medication?", "Can I take this medication with other drugs?"],
+            "responses": ["Common side effects of this medication include nausea, dizziness, and headache. It's important to store your medication in a cool, dry place. Please consult with your pharmacist or healthcare provider before taking this medication with other drugs."]
+        },
+        {
+            "tag": "dosage",
+            "patterns": ["What is the recommended dosage for this medication?", "How often should I take this medication?", "Can I adjust the dosage on my own?"],
+            "responses": ["The recommended dosage for this medication is X mg per day. Please follow the instructions provided by your healthcare provider and do not adjust the dosage without consulting them."]
+        },
+        {
+            "tag": "drug_interaction",
+            "patterns": ["Are there any known drug interactions with this medication?", "Can I take this medication if I'm already taking other drugs?", "Should I avoid certain foods or beverages while taking this medication?"],
+            "responses": ["There may be potential drug interactions with this medication. It's important to inform your healthcare provider about all the medications you are currently taking. They can provide guidance on potential interactions and whether you should avoid certain foods or beverages."]
+        },
+        {
+            "tag": "common_cold",
+            "patterns": ["What are the symptoms of a common cold?", "How long does a common cold usually last?", "Can you recommend any remedies for a common cold?"],
+            "responses": ["Symptoms of a common cold include runny nose, sore throat, cough, and congestion. A common cold typically lasts for about 7-10 days. Rest, staying hydrated, and over-the-counter remedies can help alleviate symptoms."]
+        },
+        {
+            "tag": "influenza",
+            "patterns": ["What are the symptoms of influenza?", "How long does the flu usually last?", "Can you recommend any flu prevention strategies?"],
+            "responses": ["Symptoms of influenza include fever, body aches, fatigue, and respiratory symptoms. The flu typically lasts for about 1-2 weeks. Getting a flu vaccine, practicing good hygiene, and avoiding close contact with sick individuals can help prevent the flu."]
+        },
+        {
+            "tag": "headache",
+            "patterns": ["What are the common causes of headaches?", "How can I relieve a headache?", "When should I seek medical attention for a headache?"],
+            "responses": ["Common causes of headaches include tension, sinus issues, and migraines. To relieve a headache, you can try resting in a quiet, dark room, applying a cold or warm compress, or taking over-the-counter pain relievers. If your headache is severe, persistent, or accompanied by other concerning symptoms, it's advisable to seek medical attention."]
+        },
+        {
+            "tag": "allergies",
+            "patterns": ["What are the common symptoms of allergies?", "How can I manage my allergies?", "Are there any effective allergy medications?"],
+            "responses": ["Common symptoms of allergies include sneezing, itching, watery eyes, and nasal congestion. To manage allergies, you can try avoiding triggers, using air purifiers, and taking over-the-counter antihistamines. There are various effective allergy medications available, including nasal sprays, eye drops, and oral medications."]
+        },
+        {
+            "tag": "asthma",
+            "patterns": ["What are the symptoms of asthma?", "How can I manage my asthma?", "Are there any effective asthma medications?"],
+            "responses": ["Symptoms of asthma include wheezing, shortness of breath, chest tightness, and coughing. To manage asthma, it's important to avoid triggers, take prescribed medications as directed, and have an asthma action plan. There are various effective asthma medications available, including inhalers and oral medications."]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": ["What are the symptoms of diabetes?", "How can I manage my diabetes?", "Are there any effective diabetes medications?"],
+            "responses": ["Symptoms of diabetes include frequent urination, excessive thirst, unexplained weight loss, and fatigue. To manage diabetes, it's important to monitor blood sugar levels, follow a healthy diet, engage in regular physical activity, and take prescribed medications. There are various effective diabetes medications available, including insulin and oral medications."]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": ["What are the symptoms of hypertension?", "How can I manage my hypertension?", "Are there any effective hypertension medications?"],
+            "responses": ["Hypertension, or high blood pressure, often does not have noticeable symptoms. To manage hypertension, it's important to maintain a healthy lifestyle, including a balanced diet, regular exercise, stress management, and medication as prescribed by a healthcare provider. There are various effective hypertension medications available, including ACE inhibitors, beta blockers, and diuretics."]
+        },
+        {
+            "tag": "migraine",
+            "patterns": ["What are the symptoms of a migraine?", "How can I manage my migraines?", "Are there any effective migraine medications?"],
+            "responses": ["Symptoms of a migraine include severe headache, sensitivity to light and sound, nausea, and vomiting. To manage migraines, it's important to identify triggers, practice stress management techniques, maintain a regular sleep schedule, and take prescribed medications. There are various effective migraine medications available, including triptans and preventive medications."]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": ["What are the symptoms of arthritis?", "How can I manage my arthritis?", "Are there any effective arthritis medications?"],
+            "responses": ["Symptoms of arthritis include joint pain, stiffness, swelling, and decreased range of motion. To manage arthritis, it's important to engage in regular physical activity, maintain a healthy weight, use hot or cold therapy, and take prescribed medications. There are various effective arthritis medications available, including nonsteroidal anti-inflammatory drugs (NSAIDs) and disease-modifying antirheumatic drugs (DMARDs)."]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": ["What are the symptoms of insomnia?", "How can I improve my sleep quality?", "Are there any effective treatments for insomnia?"],
+            "responses": ["Symptoms of insomnia include difficulty falling asleep, staying asleep, or waking up too early. To improve sleep quality, it's important to establish a regular sleep schedule, create a relaxing bedtime routine, maintain a comfortable sleep environment, and practice good sleep hygiene. There are various effective treatments for insomnia, including cognitive-behavioral therapy for insomnia (CBT-I) and medications prescribed by a healthcare provider."]
+        },
+        {
+            "tag": "tag1",
+            "patterns": ["What are the symptoms of tag1?", "How can I manage tag1?", "Are there any effective tag1 medications?"],
+            "responses": ["Symptoms of tag1 include X, Y, and Z. To manage tag1, it's important to A, B, and C. There are various effective tag1 medications available, including D and E."]
+        },
+        {
+            "tag": "tag2",
+            "patterns": ["What are the symptoms of tag2?", "How can I manage tag2?", "Are there any effective tag2 medications?"],
+            "responses": ["Symptoms of tag2 include X, Y, and Z. To manage tag2, it's important to A, B, and C. There are various effective tag2 medications available, including D and E."]
+        },
+        {
+            "tag": "tag3",
+            "patterns": ["What are the symptoms of tag3?", "How can I manage tag3?", "Are there any effective tag3 medications?"],
+            "responses": ["Symptoms of tag3 include X, Y, and Z. To manage tag3, it's important to A, B, and C. There are various effective tag3 medications available, including D and E."]
+        },
+        {
+            "tag": "tag4",
+            "patterns": ["What are the symptoms of tag4?", "How can I manage tag4?", "Are there any effective tag4 medications?"],
+            "responses": ["Symptoms of tag4 include X, Y, and Z. To manage tag4, it's important to A, B, and C. There are various effective tag4 medications available, including D and E."]
+        },
+        {
+            "tag": "tag5",
+            "patterns": ["What are the symptoms of tag5?", "How can I manage tag5?", "Are there any effective tag5 medications?"],
+            "responses": ["Symptoms of tag5 include X, Y, and Z. To manage tag5, it's important to A, B, and C. There are various effective tag5 medications available, including D and E."]
+        },
+        {
+            "tag": "tag6",
+            "patterns": ["What are the symptoms of tag6?", "How can I manage tag6?", "Are there any effective tag6 medications?"],
+            "responses": ["Symptoms of tag6 include X, Y, and Z. To manage tag6, it's important to A, B, and C. There are various effective tag6 medications available, including D and E."]
+        },
+        {
+            "tag": "tag7",
+            "patterns": ["What are the symptoms of tag7?", "How can I manage tag7?", "Are there any effective tag7 medications?"],
+            "responses": ["Symptoms of tag7 include X, Y, and Z. To manage tag7, it's important to A, B, and C. There are various effective tag7 medications available, including D and E."]
+        },
+        {
+            "tag": "tag8",
+            "patterns": ["What are the symptoms of tag8?", "How can I manage tag8?", "Are there any effective tag8 medications?"],
+            "responses": ["Symptoms of tag8 include X, Y, and Z. To manage tag8, it's important to A, B, and C. There are various effective tag8 medications available, including D and E."]
+        },
+        {
+            "tag": "tag9",
+            "patterns": ["What are the symptoms of tag9?", "How can I manage tag9?", "Are there any effective tag9 medications?"],
+            "responses": ["Symptoms of tag9 include X, Y, and Z. To manage tag9, it's important to A, B, and C. There are various effective tag9 medications available, including D and E."]
+        },
+        {
+            "tag": "tag10",
+            "patterns": ["What are the symptoms of tag10?", "How can I manage tag10?", "Are there any effective tag10 medications?"],
+            "responses": ["Symptoms of tag10 include X, Y, and Z. To manage tag10, it's important to A, B, and C. There are various effective tag10 medications available, including D and E."]
+        },
+        {
+            "tag": "tag11",
+            "patterns": ["What are the symptoms of tag11?", "How can I manage tag11?", "Are there any effective tag11 medications?"],
+            "responses": ["Symptoms of tag11 include X, Y, and Z. To manage tag11, it's important to A, B, and C. There are various effective tag11 medications available, including D and E."]
+        },
+        {
+            "tag": "tag12",
+            "patterns": ["What are the symptoms of tag12?", "How can I manage tag12?", "Are there any effective tag12 medications?"],
+            "responses": ["Symptoms of tag12 include X, Y, and Z. To manage tag12, it's important to A, B, and C. There are various effective tag12 medications available, including D and E."]
+        },
+        {
+            "tag": "tag13",
+            "patterns": ["What are the symptoms of tag13?", "How can I manage tag13?", "Are there any effective tag13 medications?"],
+            "responses": ["Symptoms of tag13 include X, Y, and Z. To manage tag13, it's important to A, B, and C. There are various effective tag13 medications available, including D and E."]
+        },
+        {
+            "tag": "tag14",
+            "patterns": ["What are the symptoms of tag14?", "How can I manage tag14?", "Are there any effective tag14 medications?"],
+            "responses": ["Symptoms of tag14 include X, Y, and Z. To manage tag14, it's important to A, B, and C. There are various effective tag14 medications available, including D and E."]
+        },
+        {
+            "tag": "tag15",
+            "patterns": ["What are the symptoms of tag15?", "How can I manage tag15?", "Are there any effective tag15 medications?"],
+            "responses": ["Symptoms of tag15 include X, Y, and Z. To manage tag15, it's important to A, B, and C. There are various effective tag15 medications available, including D and E."]
+        },
+        {
+            "tag": "tag16",
+            "patterns": ["What are the symptoms of tag16?", "How can I manage tag16?", "Are there any effective tag16 medications?"],
+            "responses": ["Symptoms of tag16 include X, Y, and Z. To manage tag16, it's important to A, B, and C. There are various effective tag16 medications available, including D and E."]
+        },
+        {
+            "tag": "tag17",
+            "patterns": ["What are the symptoms of tag17?", "How can I manage tag17?", "Are there any effective tag17 medications?"],
+            "responses": ["Symptoms of tag17 include X, Y, and Z. To manage tag17, it's important to A, B, and C. There are various effective tag17 medications available, including D and E."]
+        },
+        {
+            "tag": "tag18",
+            "patterns": ["What are the symptoms of tag18?", "How can I manage tag18?", "Are there any effective tag18 medications?"],
+            "responses": ["Symptoms of tag18 include X, Y, and Z. To manage tag18, it's important to A, B, and C. There are various effective tag18 medications available, including D and E."]
+        },
+        {
+            "tag": "tag19",
+            "patterns": ["What are the symptoms of tag19?", "How can I manage tag19?", "Are there any effective tag19 medications?"],
+            "responses": ["Symptoms of tag19 include X, Y, and Z. To manage tag19, it's important to A, B, and C. There are various effective tag19 medications available, including D and E."]
+        },
+        {
+            "tag": "tag20",
+            "patterns": ["What are the symptoms of tag20?", "How can I manage tag20?", "Are there any effective tag20 medications?"],
+            "responses": ["Symptoms of tag20 include X, Y, and Z. To manage tag20, it's important to A, B, and C. There are various effective tag20 medications available, including D and E."]
+        }
+    ]
+}
+
