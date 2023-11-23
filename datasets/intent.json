@@ -215,7 +215,62 @@
             "tag": "migraine",
             "patterns": ["What are the symptoms of a migraine?", "How can I manage my migraines?", "Are there any effective migraine medications?"],
             "responses": ["Symptoms of a migraine include severe headache, sensitivity to light and sound, nausea, and vomiting. To manage migraines, it's important to identify triggers, practice stress management techniques, maintain a regular sleep schedule, and take prescribed medications. There are various effective migraine medications available, including triptans and preventive medications."]
+        },
+        {
+            "tag": "covid",
+            "patterns": ["What are the symptoms of COVID-19?", "How can I protect myself from COVID-19?", "Are there any effective treatments for COVID-19?"],
+            "responses": ["Symptoms of COVID-19 include fever, cough, shortness of breath, and loss of taste or smell. To protect yourself from COVID-19, it's important to practice good hand hygiene, wear a mask, maintain social distancing, and get vaccinated. There are various effective treatments for COVID-19, including antiviral medications and monoclonal antibody therapy."]
+        },
+        {
+            "tag": "depression",
+            "patterns": ["What are the symptoms of depression?", "How can I manage depression?", "Are there any effective medications for depression?"],
+            "responses": ["Symptoms of depression include persistent sadness, loss of interest in activities, changes in appetite or sleep patterns, and feelings of worthlessness. To manage depression, it's important to seek therapy, engage in regular physical activity, maintain a healthy lifestyle, and take prescribed medications. There are various effective medications available for depression, including selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs)."]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": ["What are the symptoms of anxiety?", "How can I manage anxiety?", "Are there any effective medications for anxiety?"],
+            "responses": ["Symptoms of anxiety include excessive worry, restlessness, irritability, and difficulty concentrating. To manage anxiety, it's important to practice relaxation techniques, engage in regular exercise, maintain a healthy lifestyle, and seek therapy. There are various effective medications available for anxiety, including selective serotonin reuptake inhibitors (SSRIs) and benzodiazepines."]
+        },
+        {
+            "tag": "stroke",
+            "patterns": ["What are the symptoms of a stroke?", "How can I prevent a stroke?", "Are there any effective treatments for stroke?"],
+            "responses": ["Symptoms of a stroke include sudden weakness or numbness in the face, arm, or leg, difficulty speaking or understanding speech, and severe headache. To prevent a stroke, it's important to maintain a healthy lifestyle, control blood pressure and cholesterol levels, and avoid smoking. There are various effective treatments for stroke, including clot-busting medications and rehabilitation therapy."]
+        },
+        {
+            "tag": "cancer",
+            "patterns": ["What are the common types of cancer?", "How can I reduce my risk of cancer?", "Are there any effective treatments for cancer?"],
+            "responses": ["Common types of cancer include breast cancer, lung cancer, colorectal cancer, and prostate cancer. To reduce the risk of cancer, it's important to maintain a healthy lifestyle, avoid tobacco and excessive alcohol consumption, protect yourself from sun exposure, and get regular screenings. There are various effective treatments for cancer, including surgery, chemotherapy, radiation therapy, and targeted therapy."]
+        },
+        {
+            "tag": "heart_disease",
+            "patterns": ["What are the symptoms of heart disease?", "How can I prevent heart disease?", "Are there any effective treatments for heart disease?"],
+            "responses": ["Symptoms of heart disease include chest pain or discomfort, shortness of breath, fatigue, and irregular heartbeat. To prevent heart disease, it's important to maintain a healthy lifestyle, eat a balanced diet, exercise regularly, manage stress, and avoid smoking. There are various effective treatments for heart disease, including medications, lifestyle changes, and surgical procedures."]
+        },
+        {
+            "tag": "kidney_disease",
+            "patterns": ["What are the symptoms of kidney disease?", "How can I protect my kidneys?", "Are there any effective treatments for kidney disease?"],
+            "responses": ["Symptoms of kidney disease include fatigue, swelling in the legs or ankles, changes in urine output, and high blood pressure. To protect your kidneys, it's important to maintain a healthy lifestyle, stay hydrated, manage blood pressure and blood sugar levels, and avoid excessive use of pain medications. There are various effective treatments for kidney disease, including medications, dialysis, and kidney transplantation."]
+        },
+        {
+            "tag": "alzheimer",
+            "patterns": ["What are the symptoms of Alzheimer's disease?", "How can I manage Alzheimer's disease?", "Are there any effective treatments for Alzheimer's disease?"],
+            "responses": ["Symptoms of Alzheimer's disease include memory loss, confusion, difficulty with problem-solving, and changes in mood or behavior. To manage Alzheimer's disease, it's important to create a safe and supportive environment, engage in cognitive stimulation activities, and seek support from healthcare professionals and support groups. While there is no cure for Alzheimer's disease, there are medications available to manage symptoms and slow down the progression of the disease."]
+        },
+        {
+            "tag": "osteoporosis",
+            "patterns": ["What are the risk factors for osteoporosis?", "How can I prevent osteoporosis?", "Are there any effective treatments for osteoporosis?"],
+            "responses": ["Risk factors for osteoporosis include aging, female gender, low body weight, and certain medical conditions. To prevent osteoporosis, it's important to maintain a healthy lifestyle, consume adequate calcium and vitamin D, engage in weight-bearing exercises, and avoid smoking and excessive alcohol consumption. There are various effective treatments for osteoporosis, including medications to increase bone density and reduce the risk of fractures."]
+        },
+        {
+            "tag": "parkinson",
+            "patterns": ["What are the symptoms of Parkinson's disease?", "How can I manage Parkinson's disease?", "Are there any effective treatments for Parkinson's disease?"],
+            "responses": ["Symptoms of Parkinson's disease include tremors, stiffness, slow movement, and balance problems. To manage Parkinson's disease, it's important to take prescribed medications, engage in physical therapy and exercise, and seek support from healthcare professionals and support groups. While there is no cure for Parkinson's disease, there are medications available to manage symptoms and improve quality of life."]
+        },
+        {
+            "tag": "hiv",
+            "patterns": ["What are the symptoms of HIV?", "How can I prevent HIV?", "Are there any effective treatments for HIV?"],
+            "responses": ["Symptoms of HIV include flu-like symptoms, fatigue, swollen lymph nodes, and recurrent infections. To prevent HIV, it's important to practice safe sex, use clean needles, and get tested regularly. There are various effective treatments for HIV, including antiretroviral therapy (ART) that can suppress the virus and prevent the progression to AIDS."]
         }
-]    
+    ]
 }
 
